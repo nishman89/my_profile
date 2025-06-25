@@ -1,0 +1,62 @@
+p{
+    font-size: 1.2em;
+}
+
+body {
+    background-color: lightblue;
+    color: rgb(4,11,104);
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #ff0000;
+}
+
+.box-1{
+    background-color: whitesmoke;
+}
+
+.box-2{
+    background-color: blue;
+    padding: 20px;
+    margin: 10px
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1 h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+#myform {
+    background-color: grey;
+    color: blanchedalmond;
+    padding: 50px;
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.flex-container li {
+    list-style: none;
+}
+
+a{
+ text-decoration: none;
+ color: black
+}
+
+a:hover{
+    color:red
+}
